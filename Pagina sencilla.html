@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<style>
+		
+		form {
+			width: 50%; 
+			margin: 20px auto; 
+			padding: 20px; 
+			background-color: #ffffff; 
+			border: 1px solid #b8159a; 
+			border-radius: 100px; 
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+		}
+		
+		form div {
+			text-align: center; 
+		}
+	
+		
+		input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="date"], input[type="datetime-local"], input[type="time"], input[type="month"], input[type="week"], input[type="url"], input[type="range"], input[type="search"], input[type="color"] {
+			width: 95%;  
+			height: 20px;  
+			margin-bottom: 25px;  
+			padding: 10px;  
+			border: 1px solid #eca5e6;  
+			border-radius: 50px;  
+		}
+		
+	</style>
+</head>
+<body>
+	<h1 style="text-align: center;">Bienvenidos</h1>
+	<form>
+		<h2 style="text-align: center;">Formulario de Registro</h2>
+		<div>
+            
+			<br>
+			<label class="form-label">Digita Tu Nombre</label>
+			<input type="text" placeholder="Nombre" required>
+            <br>
+		</div>
+		
+		<div>
+            <br>
+			<label class="form-label">Email</label>
+			<input type="email" placeholder="Email" required>
+            <br>
+		</div>
+		
+		<div>
+            <br>
+			<label class="form-label">Digita Tu Contraseña</label>
+			<input type="password" placeholder="Contraseña" required>
+            <br>
+		</div>
+		
+		<div>
+            <br>
+			<label class="form-label">Edad</label>
+			<input type="number" placeholder="Edad" required>
+            <br>
+		</div>
+		
+		<div>
+            <br>
+			<label class="form-label">Fecha de nacimiento</label>
+			<input type="date" placeholder="Fecha" required>
+            <br>
+		</div>
+		
+		<div>
+            <br>
+			<label class="form-label">Número Telefónico</label>
+			<input type="number" placeholder="Numero telefonico" required>
+            <br>
+		</div>
+		
+		<div>
+            <br>
+			<label class="form-label">Fecha de Registro</label>
+			<input type="datetime-local" placeholder="fecha inicio" required>
+            <br>
+		</div>
+	
+		<div>
+			<br>
+			<label class="form-label">Hora de Registro</label>
+			<input type="time" placeholder="tiempo" required>
+            <br>
+			
+		</div>
+		
+		<div>
+            <br>
+			<label class="form-label">Mes y Año Desempleada</label>
+			<input type="month" placeholder="mes e año" required>
+            <br>
+		</div>
+		
+		<div><br>
+			<label class="form-label">Semana y Año Desempleada</label>
+			<input type="week" placeholder="semana e año" required>
+            <br>
+		</div>
+		<div><br>
+			<label class="form-label">Url de donde trabajas</label>
+			<input type="url" placeholder="URL" required>
+            <br>
+		</div>
+		<div>
+            <br>
+			<label class="form-label">Rango De Personas Con Quien Vives</label>
+			<input type="range" min="0" max="100" value="50">
+            <br>
+		</div>
+		<div>
+            <br>
+			<label class="form-label">Pertenece a algún tipo de pobración</label>
+			<br>
+			<input type="checkbox" value="opcion1"> Gitano
+			<br>
+			<input type="checkbox" value="opcion2"> Indigena
+			<br>
+			<input type="checkbox" value="opcion1"> Victima CA
+			<br>
+			<input type="checkbox" value="opcion2"> Mestizo
+			<br>
+			<input type="checkbox" value="opcion1"> Afrocolombiano
+			<br>
+			<input type="checkbox" value="opcion2"> Campesinado
+			<br>
+			<input type="checkbox" value="opcion2"> Ninguno
+            <br>
+		</div>
+		
+		<div>
+			<br>
+			<label class="form-label">Estrato</label><br>
+			<input type="radio" id="estrato_A1" name="estrato" value="A1"> A1<br>
+			<input type="radio" id="estrato_A2" name="estrato" value="A2"> A2<br>
+			<input type="radio" id="estrato_A3" name="estrato" value="A3"> A3<br>
+			<input type="radio" id="estrato_A4" name="estrato" value="A4"> A4<br>
+			<input type="radio" id="estrato_B1" name="estrato" value="B1"> B1<br>
+			<br>
+		</div>
+		
+		<div>
+            <br>
+			<label class="form-label">Documento De La Cedula</label><br>
+			<input type="file" placeholder="Selecion de archivo" required>
+            <br>
+		</div>
+		
+		<div>
+            <br>
+			<label class="form-label">Ingrese Información Adicional</label>
+            <input type="text" name="adicional_info" placeholder="Ingrese Información Adicional">
+			
+        <br>
+		</div>
+		
+		<div><br>
+			<label class="form-label">Consultar</label>
+			<input type="search" placeholder="Consultar" required>
+            <br>
+		</div>
+		
+		<div><br>
+			<label class="form-label">Selecciona Color De Preferencia</label>
+			<input type="color" placeholder="Color" required>
+            <br>
+		</div>
+		<div>
+            <br>
+			<input type="reset" value="Enviar">
+			<input type="submit" value="Modificar">
+            <br>
+		</div>
+		<div>
+            <br>
+			<label class="form-label">Imagen Motivadora</label><br>
+			<input type="image" src="imag/nadie.jpg" height="200" width="200" alt="Imagen de perritos">
+            <br>
+		</div>
+		
+	
+	</form>
+</body>
+</html>
